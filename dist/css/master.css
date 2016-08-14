@@ -1,4 +1,35 @@
 
 body {
-  margin: 0px;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  color: #212121;
+}
+
+section {
+  border-bottom: 4px solid #212121;
+  padding: 10px 20px;
+}
+
+section:last-of-type {
+  border: none;
+}
+
+footer {
+  padding: 20px 0;
+  text-align: center;
+  background-color: #212121;
+  color: white;
+}
+
+footer a {
+  text-decoration: none;
+  color: #BF360C;
+}
+
+#interests {
+  background-image: url('../images/banner.jpg');
+  background-size: cover;
+  color: white;
+  text-shadow: 1px 1px 1px black;
 }
